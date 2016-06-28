@@ -1,0 +1,25 @@
+body {
+    background-color: #333333;
+    color: #fff;
+}
+
+.artistCard {
+    background-color: #87C33F; 
+    border: solid 10px #63A610;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    box-shadow: inset 5px 5px 5px #53660a;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+li {
+    font-size: 20px;
+    padding-left: -20px;
+    color: #53660a;
+}
