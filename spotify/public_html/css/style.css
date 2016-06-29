@@ -5,11 +5,14 @@ body {
 
 .artistCard {
     background-color: #87C33F; 
-    border: solid 10px #63A610;
     border-radius: 30px;
-    width: 400px;
-    height: 400px;
-    box-shadow: inset 5px 5px 5px #53660a;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 5px #53660a;
+}
+
+h2 {
+    text-align: center;
 }
 
 ul {
@@ -19,7 +22,12 @@ ul {
 }
 
 li {
-    font-size: 20px;
-    padding-left: -20px;
+  
+
     color: #53660a;
+}
+
+.artistImage {
+    width: 150px;
+    height: 150px;
 }

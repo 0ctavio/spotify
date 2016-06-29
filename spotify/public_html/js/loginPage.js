@@ -23,10 +23,14 @@ function requestData() {
                    if (validation === true) {
                            console.log("El usuario y la contraseña son correctas");
                            window.location.href = "webSearch.html";
+                           var myInfoUser = {
+                                    name: nameUser,
+                                    password: passwordUser
+                           };
+                           window.sessionStorage.setItem('user', JSON.stringify(myInfoUser));
                    } else {
-                           console.log("Usuario y contraseña incorrectos. Vuelve a intentarlo");
+                           alert("Usuario y contraseña incorrectos. Vuelve a intentarlo");
                    }
-            //console.log(response); // server response
         }
     });
 }
