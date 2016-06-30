@@ -48,7 +48,7 @@ function formatArtists(artists) {
 function searchAlbum(artistID) {
     //alert("aahaa");
     $.ajax({
-        url: 'https://api.spotify.com/v1/artists/'+artistID+'/albums',
+        url: 'https://api.spotify.com/v1/artists/'+artistID+'/albums?market=es',
         dataType: "json",
         success: formatAlbum,
         error: function () {
@@ -75,6 +75,8 @@ function formatAlbum(album) {
   
             });
 }
+
+
 
 
 
